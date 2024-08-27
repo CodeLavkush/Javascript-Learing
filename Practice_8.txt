@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            flex-direction: column;
+        }
+        .btn{
+            width: 6rem;
+            height: 2rem;
+            border: none;
+            background-color: rgb(69, 69, 217);
+            color: white;
+            cursor: pointer;
+            border-radius: 0.2rem;
+        }
+        .btn:hover{
+            background-color: rgb(40, 40, 196);
+        }
+        input{
+            width: 12rem;
+            height: 1.5rem;
+            border: none;
+            background-color: beige;
+            border-radius: 0.5rem;
+            padding: .5em;
+            font-weight: bold;
+            margin: 1rem;
+            outline: none;
+
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            background-color: purple;
+            color: white;
+            padding: .8rem;
+            border-radius: .8em;
+            margin: 1em;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <button class="btn">Click me</button>
+        <button class="btn">Click me</button>
+        <button class="btn">Click me</button>
+        <button class="btn">Click me</button>
+    </div> -->
+
+    <div class="container">
+        <input class="bmName" type="text" placeholder="Enter name here...">
+        <input class="LinkIn" type="text" placeholder="Enter Link here...">
+        <button class="btn">Add</button>
+    </div>
+    <script src="Practice_8.js"></script>
+</body>
+</html>

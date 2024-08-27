@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards</title>
+    <style>
+      .Cards {
+        display: flex;
+        border: 2px solid black;
+        width: 60%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+      }
+      .text h1{
+        padding: 2px;
+      }
+      .text p{
+        padding-left: 12px;
+      }
+      .image img{
+        position: relative;
+      }
+      .image .capsule{
+        position: absolute;
+        left: 160px;
+        top: 90px;
+        background-color: black;
+        opacity: .8;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    </div>
+    <script src="Practice_7.js"></script>
+  </body>
+</html>
